@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LADM_U1_Practica1_DanielSandovalAlvarez_Layouts</string>
+    <string name="title_home">Inicio</string>
+    <string name="title_dashboard">Nosotros</string>
+    <string name="title_notifications">Contacto</string>
+    <string name="title_activity_maps">El Cactus Records</string>
+</resources>

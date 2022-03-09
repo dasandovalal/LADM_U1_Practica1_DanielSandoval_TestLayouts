@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MUSE"
+        android:id="@+id/muse"
+        android:layout_centerHorizontal="true"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/muse"
+        android:layout_below="@id/muse"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/album1"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/album1"
+        android:text="ORIGIN OF SYMMETRY"
+        android:id="@+id/origin"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="METALLICA"
+        android:id="@+id/metallica"
+        android:layout_marginTop="25dp"
+        android:layout_below="@id/origin"
+        android:layout_centerHorizontal="true"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/metallica"
+        android:layout_below="@id/metallica"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/album2"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/album2"
+        android:text="MASTER OF PUPPETS"
+        android:id="@+id/master"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TWENTY ONE PILOTS"
+        android:id="@+id/pilots"
+        android:layout_marginTop="25dp"
+        android:layout_below="@id/master"
+        android:layout_centerHorizontal="true"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pilots"
+        android:layout_below="@id/pilots"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/album3"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/album3"
+        android:text="BLURRYFACE"
+        android:id="@+id/blurry"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/blurry"
+        android:layout_marginTop="30dp"
+        android:id="@+id/salirboton"
+        android:text="SALIR"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
